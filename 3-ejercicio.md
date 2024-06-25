@@ -36,7 +36,7 @@ docker run -P -d --name wordpress --env-file=${PWD}/ejercicio3/varWordPress.env 
 
 ### Eliminar el contenedor y crearlo nuevamente, ¿qué ha sucedido?
 
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+Cuando se elimina y recrea el contenedor, las configuraciones y contenidos previamente añadidos se mantienen, ya que están almacenados en un volumen conectado desde el servidor principal. Esto garantiza que cualquier modificación hecha en WordPress se conserve, incluso si el contenedor se borra y se vuelve a crear.
 
 
 
